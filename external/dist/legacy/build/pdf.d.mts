@@ -1,1 +1,1 @@
-export * from "pdfjs-dist";
+export * from "@showell-labs/pdfjs-dist";
