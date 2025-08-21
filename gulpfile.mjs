@@ -86,6 +86,7 @@ const ENV_TARGETS = [
   "> 1%",
   "not IE > 0",
   "not dead",
+  "iOS >= 15",
 ];
 
 // Default Autoprefixer config used for generic, components, minified-pre
@@ -2333,7 +2334,7 @@ function packageJson() {
     version: VERSION,
     publishConfig: {
       registry: "https://npm.pkg.github.com/",
-      access: "restricted"
+      access: "restricted",
     },
     main: "build/pdf.mjs",
     types: "types/src/pdf.d.ts",
