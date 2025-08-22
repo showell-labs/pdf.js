@@ -1,8 +1,8 @@
 # PDF.js [![CI](https://github.com/mozilla/pdf.js/actions/workflows/ci.yml/badge.svg?query=branch%3Amaster)](https://github.com/mozilla/pdf.js/actions/workflows/ci.yml?query=branch%3Amaster)
 
 > [!IMPORTANT]
-> This repository is a fork of the original PDF.js, with changes that optimize
-> the build for older browsers. The build is distributed as @showell-labs/pdfjs-dist via GitHub package repository.
+> This repository is a fork of the original PDF.js, with changes that adjust the legacy build to support certain older browser versions.
+> The build is distributed as `@showell-labs/pdfjs-dist` via GitHub package repository.
 
 ## Updating `@showell-labs/pdfjs-dist` from the upstream
 
