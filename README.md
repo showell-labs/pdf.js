@@ -4,7 +4,13 @@
 > This repository is a fork of the original PDF.js, with changes that optimize
 > the build for older browsers. The build is distributed as @showell-labs/pdfjs-dist via GitHub package repository.
 
---
+## Updating `@showell-labs/pdfjs-dist` from the upstream
+
+- Pull the release tag from `upstream`
+- Merge with `master`
+- See `publish_release.yml` for up-to-date instructions on making the release
+
+---
 
 [PDF.js](https://mozilla.github.io/pdf.js/) is a Portable Document Format (PDF) viewer that is built with HTML5.
 
