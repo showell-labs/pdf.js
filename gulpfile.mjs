@@ -2335,7 +2335,7 @@ function packageJson() {
     version: VERSION,
     publishConfig: {
       registry: "https://npm.pkg.github.com/",
-      access: "restricted",
+      access: "public",
     },
     main: "build/pdf.mjs",
     types: "types/src/pdf.d.ts",
