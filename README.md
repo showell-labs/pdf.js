@@ -8,7 +8,12 @@
 
 - Pull the release tag from `upstream`
 - Merge with `master`
-- See `publish_release.yml` for up-to-date instructions on making the release
+- Build and publish
+
+```sh
+npx gulp dist
+npm publish ./build/dist
+```
 
 ---
 
