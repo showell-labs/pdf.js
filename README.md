@@ -1,5 +1,11 @@
 # PDF.js [![CI](https://github.com/mozilla/pdf.js/actions/workflows/ci.yml/badge.svg?query=branch%3Amaster)](https://github.com/mozilla/pdf.js/actions/workflows/ci.yml?query=branch%3Amaster)
 
+> [!IMPORTANT]
+> This repository is a fork of the original PDF.js, with changes that optimize
+> the build for older browsers. The build is distributed as @showell-labs/pdfjs-dist via GitHub package repository.
+
+--
+
 [PDF.js](https://mozilla.github.io/pdf.js/) is a Portable Document Format (PDF) viewer that is built with HTML5.
 
 PDF.js is community-driven and supported by Mozilla. Our goal is to
