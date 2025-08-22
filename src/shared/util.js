@@ -403,6 +403,7 @@ function _isValidProtocol(url) {
     case "ftp:":
     case "mailto:":
     case "tel:":
+    case "showell:": // #showell
       return true;
     default:
       return false;
